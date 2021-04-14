@@ -33,13 +33,13 @@ public class Calculator{
         return A / B;
     }
 
-    private static int Multiplication(int A, int B) {
+    public static int Multiplication(int A, int B) {
         System.out.println("Result multiplication " + (A * B));
         return A * B;
 
     }
 
-    private static int Subtraction(int A, int B) {
+    public static int Subtraction(int A, int B) {
         System.out.println("Result subtraction " + (A - B));
         return (A - B);
     }
